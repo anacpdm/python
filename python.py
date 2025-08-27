@@ -22,21 +22,6 @@ def calcular_valores(total, pessoas, sugeridor):
         nome = f"Pessoa {i}"
         if nome != sugeridor:
             print(f"{nome} pagará: R$ {parcela_normal:.2f}")
-
-# Exemplo de uso:
-total_churrasco = float(input("Digite o valor total do churrasco: R$ "))
-Digite o valor total do churrasco: R$ 120
-Digite o número total de pessoas: 4
-Quem sugeriu o churrasco (ex: Pessoa 3)? Pessoa 2
-Total do churrasco: R$ 120.00
-Total de pessoas: 4 (incluindo quem sugeriu)
-Pessoa 2 (quem sugeriu) pagará: R$ 40.00
-Pessoa 1 pagará: R$ 20.00
-Pessoa 3 pagará: R$ 20.00
-Pessoa 4 pagará: R$ 20.00
-
-num_pessoas = int(input("Digite o número total de pessoas: "))
-nome_sugeridor = input("Quem sugeriu o churrasco (ex: Pessoa 3)? ")
-
 calcular_valores(total_churrasco, num_pessoas, nome_sugeridor)
+
 
